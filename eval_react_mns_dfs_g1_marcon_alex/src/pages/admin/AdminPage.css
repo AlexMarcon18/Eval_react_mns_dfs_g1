@@ -1,0 +1,157 @@
+.admin-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.admin-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.admin-header h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.admin-header p {
+  color: #666;
+  font-size: 1.2em;
+}
+
+.admin-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.admin-section {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.section-icon {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.admin-section h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.admin-section p {
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.section-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-button {
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  font-size: 1em;
+}
+
+.admin-button.primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.admin-button.primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+}
+
+.admin-stats {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-stats h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.stat-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  border-left: 4px solid #007bff;
+}
+
+.stat-number {
+  font-size: 2em;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 30px 15px;
+  }
+  
+  .admin-header h1 {
+    font-size: 2em;
+  }
+  
+  .admin-sections {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .admin-section {
+    padding: 25px 20px;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+  }
+  
+  .stat-card {
+    padding: 15px;
+  }
+}

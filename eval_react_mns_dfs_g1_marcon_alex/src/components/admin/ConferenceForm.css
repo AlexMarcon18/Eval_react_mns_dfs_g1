@@ -1,0 +1,270 @@
+.conference-form {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.form-header h2 {
+  color: #333;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.form-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-section {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 25px;
+  border-left: 4px solid #007bff;
+}
+
+.form-section h3 {
+  color: #333;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.2s ease;
+  background: white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.form-group input.error,
+.form-group textarea.error {
+  border-color: #dc3545;
+}
+
+.form-group input[type="color"] {
+  height: 50px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.form-group input[type="datetime-local"] {
+  cursor: pointer;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 15px;
+  align-items: end;
+}
+
+.form-row .form-group {
+  margin-bottom: 0;
+}
+
+/* Erreurs */
+.error-text {
+  color: #dc3545;
+  font-size: 0.85em;
+  margin-top: 5px;
+  display: block;
+}
+
+.section-error {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Preview image */
+.image-preview {
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 200px;
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Array items */
+.array-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #e9ecef;
+}
+
+.add-btn,
+.remove-btn {
+  background: none;
+  border: 2px dashed #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-btn:hover {
+  background: #007bff;
+  color: white;
+  border-style: solid;
+}
+
+.remove-btn {
+  border-color: #dc3545;
+  color: #dc3545;
+  padding: 8px;
+  min-width: 40px;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.remove-btn:hover {
+  background: #dc3545;
+  color: white;
+  border-style: solid;
+}
+
+/* Actions du formulaire */
+.form-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px solid #e9ecef;
+}
+
+.cancel-btn,
+.submit-btn {
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  min-width: 120px;
+}
+
+.cancel-btn {
+  background: #6c757d;
+  color: white;
+}
+
+.cancel-btn:hover:not(:disabled) {
+  background: #5a6268;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+}
+
+.submit-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.cancel-btn:disabled,
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .conference-form {
+    max-height: 80vh;
+  }
+
+  .form-section {
+    padding: 20px 15px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .form-row .remove-btn {
+    align-self: stretch;
+    margin-top: 10px;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .cancel-btn,
+  .submit-btn {
+    width: 100%;
+  }
+
+  .image-preview {
+    max-width: 100%;
+  }
+}
+
+/* Améliorer la scrollbar */
+.conference-form::-webkit-scrollbar {
+  width: 8px;
+}
+
+.conference-form::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.conference-form::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 4px;
+}
+
+.conference-form::-webkit-scrollbar-thumb:hover {
+  background: #0056b3;
+}

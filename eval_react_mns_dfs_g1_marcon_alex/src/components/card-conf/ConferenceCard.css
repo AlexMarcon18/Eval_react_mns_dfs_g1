@@ -1,0 +1,106 @@
+.conference-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.conference-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.conference-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.conference-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.conference-content {
+  padding: 20px;
+}
+
+.conference-title {
+  color: #333;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  line-height: 1.3;
+}
+
+.conference-date {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.conference-duration {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.conference-description {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.conference-speakers {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.speaker {
+  color: #007bff;
+  font-weight: 500;
+}
+
+.conference-location {
+  color: #666;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .conference-card {
+    margin-bottom: 15px;
+  }
+  
+  .conference-content {
+    padding: 15px;
+  }
+  
+  .conference-title {
+    font-size: 1.2em;
+  }
+  
+  .conference-image {
+    height: 150px;
+  }
+}

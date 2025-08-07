@@ -1,0 +1,270 @@
+[
+  {
+    "id": "conf-2024-react-modern",
+    "title": "React 2024 : Les Nouvelles Frontières du Développement Frontend",
+    "date": "2024-03-15T09:00:00.000Z",
+    "description": "Découvrez les dernières innovations de React 19, les Server Components, et les meilleures pratiques pour construire des applications modernes performantes.",
+    "img": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=400&fit=crop",
+    "content": "Cette conférence explore en profondeur les nouvelles fonctionnalités de React 19, notamment les Server Components qui révolutionnent le rendu côté serveur. Nous aborderons également les hooks avancés, la gestion d'état moderne avec Zustand et Redux Toolkit, ainsi que les techniques d'optimisation des performances. Les participants repartiront avec une compréhension claire des tendances actuelles et des outils indispensables pour développer des applications React robustes et scalables.",
+    "duration": "6 heures",
+    "osMap": {
+      "addressl1": "42 Avenue des Champs-Élysées",
+      "addressl2": "Centre de Conférences TechHub",
+      "postalCode": "75008",
+      "city": "Paris",
+      "coordinates": [2.3088, 48.8738]
+    },
+    "speakers": [
+      {
+        "firstname": "Marie",
+        "lastname": "Dubois"
+      },
+      {
+        "firstname": "Thomas",
+        "lastname": "Laurent"
+      }
+    ],
+    "stakeholders": [
+      {
+        "firstname": "Sophie",
+        "lastname": "Martin",
+        "job": "Lead Developer chez Meta",
+        "img": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "firstname": "Alexandre",
+        "lastname": "Rousseau",
+        "job": "Senior Frontend Architect",
+        "img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "design": {
+      "mainColor": "#61DAFB",
+      "secondColor": "#282C34"
+    }
+  },
+  {
+    "id": "conf-2024-ai-ethics",
+    "title": "Intelligence Artificielle et Éthique : Construire un Futur Responsable",
+    "date": "2024-04-22T14:00:00.000Z",
+    "description": "Une exploration approfondie des enjeux éthiques liés à l'IA, de la protection des données personnelles aux biais algorithmiques, avec des experts internationaux.",
+    "img": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+    "content": "Dans un monde où l'intelligence artificielle transforme rapidement notre société, cette conférence examine les défis éthiques critiques auxquels nous faisons face. Nous explorerons les questions de biais algorithmiques, de transparence des modèles d'IA, de protection de la vie privée et d'impact sociétal. Des cas d'étude concrets illustreront comment les entreprises peuvent implémenter des pratiques d'IA responsables. Cette session est essentielle pour tous les professionnels travaillant avec l'IA, des développeurs aux décideurs.",
+    "duration": "4 heures",
+    "osMap": {
+      "addressl1": "15 Rue de la République",
+      "addressl2": "Palais des Congrès",
+      "postalCode": "69002",
+      "city": "Lyon",
+      "coordinates": [4.8357, 45.7640]
+    },
+    "speakers": [
+      {
+        "firstname": "Dr. Elena",
+        "lastname": "Rodriguez"
+      },
+      {
+        "firstname": "Prof. Jean-Baptiste",
+        "lastname": "Lecomte"
+      }
+    ],
+    "stakeholders": [
+      {
+        "firstname": "Amira",
+        "lastname": "Hassan",
+        "job": "Ethics in AI Researcher",
+        "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "firstname": "David",
+        "lastname": "Chen",
+        "job": "AI Policy Director",
+        "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "design": {
+      "mainColor": "#9C27B0",
+      "secondColor": "#E1BEE7"
+    }
+  },
+  {
+    "id": "conf-2024-devops-kubernetes",
+    "title": "DevOps 2024 : Maîtriser Kubernetes et l'Orchestration de Conteneurs",
+    "date": "2024-05-10T10:30:00.000Z",
+    "description": "Formation intensive sur Kubernetes, du déploiement de base aux configurations avancées, avec des ateliers pratiques et des retours d'expérience en production.",
+    "img": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&h=400&fit=crop",
+    "content": "Cette conférence technique intensive couvre tous les aspects essentiels de Kubernetes pour les équipes DevOps. Nous commencerons par les concepts fondamentaux (pods, services, deployments) avant d'aborder les sujets avancés comme la gestion des secrets, le monitoring avec Prometheus, et les stratégies de déploiement blue-green. Des ateliers hands-on permettront aux participants de pratiquer sur des clusters réels. Nous partagerons également des retours d'expérience de migration vers Kubernetes dans des environnements de production complexes.",
+    "duration": "8 heures",
+    "osMap": {
+      "addressl1": "23 Boulevard de la Liberté",
+      "addressl2": "Centre d'Innovation Technologique",
+      "postalCode": "59000",
+      "city": "Lille",
+      "coordinates": [3.0586, 50.6292]
+    },
+    "speakers": [
+      {
+        "firstname": "Karim",
+        "lastname": "Benali"
+      },
+      {
+        "firstname": "Lisa",
+        "lastname": "Anderson"
+      },
+      {
+        "firstname": "Ravi",
+        "lastname": "Patel"
+      }
+    ],
+    "stakeholders": [
+      {
+        "firstname": "Marcus",
+        "lastname": "Weber",
+        "job": "DevOps Lead chez Google",
+        "img": "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "firstname": "Sarah",
+        "lastname": "Kim",
+        "job": "Cloud Infrastructure Specialist",
+        "img": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "design": {
+      "mainColor": "#326CE5",
+      "secondColor": "#4285F4"
+    }
+  },
+  {
+    "id": "conf-2024-cybersecurity-trends",
+    "title": "Cybersécurité 2024 : Nouvelles Menaces et Stratégies de Protection",
+    "date": "2024-06-05T09:00:00.000Z",
+    "description": "Analyse des dernières menaces cybernétiques, techniques d'attaque émergentes et stratégies de défense adaptées aux entreprises modernes.",
+    "img": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop",
+    "content": "La cybersécurité évolue constamment face à des menaces de plus en plus sophistiquées. Cette conférence présente un panorama complet des nouvelles vulnérabilités, des attaques par IA, et des techniques de phishing avancées. Nous examinerons les frameworks de sécurité Zero Trust, les meilleures pratiques pour sécuriser les applications cloud, et les stratégies de réponse aux incidents. Des démonstrations en temps réel illustreront les techniques d'attaque et de défense. Session indispensable pour les RSSI, administrateurs système et développeurs soucieux de la sécurité.",
+    "duration": "5 heures",
+    "osMap": {
+      "addressl1": "88 Rue de Rivoli",
+      "addressl2": "Espace Conférences Cyber",
+      "postalCode": "75001",
+      "city": "Paris",
+      "coordinates": [2.3522, 48.8566]
+    },
+    "speakers": [
+      {
+        "firstname": "Captain",
+        "lastname": "Blackhat"
+      },
+      {
+        "firstname": "Dr. Secure",
+        "lastname": "Shield"
+      }
+    ],
+    "stakeholders": [
+      {
+        "firstname": "Emma",
+        "lastname": "Thompson",
+        "job": "CISO chez Microsoft",
+        "img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "firstname": "Ahmed",
+        "lastname": "Al-Rashid",
+        "job": "Security Consultant",
+        "img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "design": {
+      "mainColor": "#FF5722",
+      "secondColor": "#FFCCBC"
+    }
+  },
+  {
+    "id": "conf-2024-ux-design-future",
+    "title": "UX Design : L'Expérience Utilisateur à l'Ère de l'IA Générative",
+    "date": "2024-07-18T13:30:00.000Z",
+    "description": "Comment l'intelligence artificielle transforme la conception UX/UI, avec des ateliers pratiques sur les nouveaux outils de design assisté par IA.",
+    "img": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=400&fit=crop",
+    "content": "L'IA générative révolutionne le design UX en permettant de créer rapidement des prototypes, de générer du contenu personnalisé et d'analyser les comportements utilisateurs à grande échelle. Cette conférence explore comment intégrer ces nouveaux outils dans vos workflows de design tout en préservant la créativité humaine. Nous couvrirons les outils comme Figma AI, Midjourney pour le design, et les techniques de prompt engineering pour designers. Des ateliers pratiques permettront d'expérimenter avec ces technologies. Session essentielle pour les UX/UI designers, product managers et creative directors.",
+    "duration": "3 heures",
+    "osMap": {
+      "addressl1": "34 Cours Julien",
+      "addressl2": "Creative Campus",
+      "postalCode": "13006",
+      "city": "Marseille",
+      "coordinates": [5.3698, 43.2965]
+    },
+    "speakers": [
+      {
+        "firstname": "Clémentine",
+        "lastname": "Moreau"
+      },
+      {
+        "firstname": "Lucas",
+        "lastname": "Fernandez"
+      }
+    ],
+    "stakeholders": [
+      {
+        "firstname": "Nina",
+        "lastname": "Johansson",
+        "job": "Head of Design chez Spotify",
+        "img": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "firstname": "James",
+        "lastname": "Mitchell",
+        "job": "Creative Director",
+        "img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "design": {
+      "mainColor": "#E91E63",
+      "secondColor": "#F8BBD9"
+    }
+  },
+  {
+    "id": "conf-2024-blockchain-enterprise",
+    "title": "Blockchain en Entreprise : Au-delà des Cryptomonnaies",
+    "date": "2024-08-12T11:00:00.000Z",
+    "description": "Applications pratiques de la blockchain dans l'industrie : supply chain, identité numérique, smart contracts et cas d'usage concrets en entreprise.",
+    "img": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=400&fit=crop",
+    "content": "La blockchain offre bien plus que les cryptomonnaies : traçabilité supply chain, gestion d'identité décentralisée, contrats intelligents pour l'automatisation des processus métier. Cette conférence présente des cas d'usage concrets où la blockchain apporte une réelle valeur ajoutée aux entreprises. Nous explorerons les plateformes Ethereum, Hyperledger Fabric, et les nouvelles solutions layer 2. Des études de cas détaillées montreront comment Walmart, Maersk et d'autres leaders utilisent la blockchain. Session technique avec démonstrations de smart contracts et architectures décentralisées.",
+    "duration": "6 heures",
+    "osMap": {
+      "addressl1": "12 Place Bellecour",
+      "addressl2": "Business Innovation Center",
+      "postalCode": "69002",
+      "city": "Lyon",
+      "coordinates": [4.8320, 45.7578]
+    },
+    "speakers": [
+      {
+        "firstname": "Blockchain",
+        "lastname": "Expert"
+      },
+      {
+        "firstname": "Crypto",
+        "lastname": "Guru"
+      }
+    ],
+    "stakeholders": [
+      {
+        "firstname": "Priya",
+        "lastname": "Sharma",
+        "job": "Blockchain Architect",
+        "img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "firstname": "Roberto",
+        "lastname": "Silva",
+        "job": "Crypto Technology Lead",
+        "img": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "design": {
+      "mainColor": "#FF9800",
+      "secondColor": "#FFE0B2"
+    }
+  }
+]
